@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "sass": "^1.85.1",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.3.0"
+  }
+}
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  }
+}
