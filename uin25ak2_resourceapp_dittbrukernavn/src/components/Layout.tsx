@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './Nav';
-import '../Styles/main.scss';
 
 export default function Layout() {
   return (
@@ -12,9 +11,7 @@ export default function Layout() {
       <main>
         <Outlet />
       </main>
-      <footer>
-        <p>© 2025 Ressursarkiv</p>
-      </footer>
+      <footer>© 2025 Ressursarkiv</footer>
     </div>
   );
 }
